@@ -1,0 +1,167 @@
+/*limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+    background: #6699CC;
+    padding: 15px;
+    text-align: center;
+
+}
+#area-logo, #area-menu {
+    padding: 10px;
+}
+#area-principal {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 700px;
+    float: right;
+}
+#area-lateral {
+    width: 300px;
+    float: left;
+}
+.postagem {
+    padding: 40px;
+    margin-bottom: 20px;
+    background: white;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+
+}
+#rodape{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background: #ccc;
+}
+/*
+**** Formatação do Menu ****
+*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover {
+    color: #99FFFF;
+    background: #333366;
+    text-decoration: none;
+}
+/*
+**** Formatação Geral ****
+*/
+h1 {
+    color: #4e4e4e;
+    font-size: 5em;
+}
+.vermelho {
+    color: red;
+}
+h2{
+    padding: 5px;
+    color: #000066;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.cartao {
+    color: red;
+    font-size: 1em; 
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #008CBA;} 
+
+/*css marquezzini*/
+       
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: #20B2AA;
+}
+input[type="text"] {
+    border-radius: 5px;
+    height: 27px;
+    border: 2px solid #20B2AA;
+}
+#email {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #20B2AA;
+}
+#senha {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #20B2AA;
+}
+input[type="password"] {
+    border-radius: 5px;
+    height: 27px;
+    border: 2px solid #20B2AA;
+}
+#log {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #20B2AA;
+}
+input[type="submit"] {
+    width: 300px;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: px;
+    background-color: #20B2AA;
+    color:#f2f2f2;
+}
+#logar {
+    padding-right: 150px;
+}
+#Cadastro{
+    float:left;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+#Esqueceu{
+    float:left;
+    margin-top: 10px;
+    margin-right: 30px;
+}
